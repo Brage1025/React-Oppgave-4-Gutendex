@@ -1,0 +1,31 @@
+.bookCard {
+  background-color: rgb(48, 35, 35);
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bookImg {
+  margin-top: 1.5vh;
+  margin-bottom: 2vh;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+  box-shadow: 8px 6px 5px 4px rgba(8, 5, 2, 0.586);
+  cursor: pointer;
+}
+
+.bookImg:hover {
+  transform: scale(1.05);
+  box-shadow: 16px 12px 10px 8px rgba(8, 5, 2, 0.686);
+}
+
+.title {
+  cursor: pointer;
+  font-weight: bold;
+  margin: 5px 0;
+  text-align: center;
+}
